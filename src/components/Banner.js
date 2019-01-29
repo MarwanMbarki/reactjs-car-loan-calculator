@@ -19,7 +19,7 @@ class Banner extends Component {
 
     componentDidMount(){
 
-        var url = "https://www.arnoldclark.com/used-cars/search.json?payment_type=monthly&min_price=100&max_price=150&sort_order=monthly_payment_up";
+        var url = "ADD_YOU_JSON_FILE_HERE";
         fetch(url)
             .then(response => {
             return response.json();
