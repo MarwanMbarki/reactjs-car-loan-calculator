@@ -1,0 +1,19 @@
+.banner {
+    background-color:#282c34;
+    height: auto;
+    width: 100%;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    .banner_wrapper{
+        padding: 25px 0px;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h5{
+            text-transform: uppercase;
+        }
+    }
+}

@@ -1,0 +1,17 @@
+.Calculator{
+    background-color: #282c34;
+    padding: 75px 0;
+    p{
+        color:#fff;
+        margin-bottom: 0;
+    }
+    .table_wrapper {
+        padding-top: 15px;
+        width: 100%;
+        table{
+            th, td{
+                color:#fff;
+            }
+        }
+    }
+}

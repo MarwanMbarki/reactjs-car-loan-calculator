@@ -1,0 +1,75 @@
+.Calculator{
+    background-color: #282c34;
+    padding: 75px 0;
+    .title{
+        margin-bottom: 25px;
+    }
+    h1{
+        color:#fff;
+        margin-bottom: 0;
+    }
+    .form_wrapper {
+        label{
+            color:#fff;
+        }
+        .react-datepicker-wrapper,.react-datepicker__input-container{
+            width: 100%;
+            input{
+                height: 40px;
+                border-radius: 5px;
+                padding-left: 10px;
+            }
+            
+        }
+    }
+    table{
+        color: #fff;
+    }
+
+    .catype-title {
+        h1{
+            text-align: center;
+            text-transform: uppercase;
+            margin-bottom: 25px;
+            margin-top: 25px;
+        }
+    }
+
+    .catype-content {
+        .cartype{
+            margin-bottom: 25px;
+            .car_img{
+                img{
+                    width: 100%;
+                    
+                }
+            }
+            .model {
+                border-bottom: 1px solid white;
+                p{
+                    color: #fff;
+                    font-weight: 700;
+                    margin-bottom: 0;
+                    margin-top: 15px;
+                    font-size: 1em;
+                }
+            }
+            .price {
+                p{
+                    color: #fff;
+                    font-weight: 700;
+                    margin-bottom: 0;
+                    margin-top: 15px;
+                    font-size: 1.5em;
+                }
+            }
+            .monthly {
+                p{
+                    color: #fff;
+                    font-weight: 700;
+                    font-size: 1.5em;
+                }
+            }
+        }
+    }
+}
