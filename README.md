@@ -28,7 +28,7 @@ Your app is ready to be deployed!
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ## EXAMPLE
-<img src="https://github.com/MarwanMbarki/reactjs-car-loan-calculator/blob/master/src/screen.gif">
+<img src="">
 
 ## CAR lOAN CALCULATOR
 Simple real time car loan caluculator, not need to push button to see result, data will binded immediatly if there is any changes accured.
