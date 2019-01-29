@@ -45,8 +45,7 @@ class Calculator extends Component {
            
         
         
-     //   var url = "https://www.arnoldclark.com/used-cars/search.json?payment_type=monthly&min_price=100&max_price=500&sort_order=monthly_payment_up";
-        fetch(`https://www.arnoldclark.com/used-cars/search.json?payment_type=monthly&min_price=100&max_price=${this.getMonthlyPay().toFixed(2)}&sort_order=monthly_payment_up`)
+        fetch('ADD_YOUR_JSON_URL_HERE')
             .then(response => {
             return response.json();
             })
