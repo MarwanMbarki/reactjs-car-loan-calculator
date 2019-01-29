@@ -19,7 +19,7 @@ class Banner extends Component {
 
     componentDidMount(){
 
-        var url = "ADD_YOU_JSON_FILE_HERE";
+        var url = "ADD_YOUR_JSON_URL_HERE";
         fetch(url)
             .then(response => {
             return response.json();
